@@ -1,0 +1,100 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: white;
+    font-family: Tahoma;
+    font-size: 20px;
+  }
+  
+  h1,p {
+    margin: 1em auto;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  select {
+    width: 100%;
+    
+  }
+  
+  #survey-form {
+    width: 70%
+    max-width: 640px;
+    margin: 0 auto;
+  
+  }
+  
+  .city {
+    width: 10%
+  }
+  
+  .state {
+    width: 10%;
+  }
+  
+  .home-address {
+    width: 40%
+  }
+  
+  .name {
+    width: 50%
+  }
+  
+  .age {
+    width: 15%;
+  }
+  
+  .ft {
+    width: 10%
+  }
+  
+  .inch {
+    width: 10%;
+  }
+  
+  .weight {
+    width: 10%;
+  }
+  
+  .gpa {
+    width: 15%
+  }
+  
+  .running {
+    width: 20%
+  }
+  
+  .shot {
+    width: 30%;
+  }
+  
+  .bone {
+    width: 30%;
+  }
+  
+  .one-thing {
+    width: 50%;
+  }
+  
+  .fingerprinted {
+    width: 10%;
+  }
+  
+  .finger2 {
+    width: 80%
+  }
+  
+  .birthmark {
+    font-size: 14px;
+  }
+  
+  .the-end {
+    width:20%;
+    
+  }

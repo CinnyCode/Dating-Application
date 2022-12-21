@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+     <form id="survey-form">
+  <head>
+    <title>survey-form</title>
+    <meta charset:"utf-8"></meta>
+    <link rel="stylesheet" href="styles.css"></link>
+  </head>
+    <div class="heading">
+    <h1 id="title">Application For Permission To Date My Daughter</h1>
+    <p id="description"><em>Note: Please be prepared to submit additional information e.g. psychological profile, DNA sample, and submission to polygraph exam.</em></p>
+    </div>
+         <fieldset>
+         <div class="entry-form">
+         <label id="name-label" for="name">1. Name</label>
+           <input required id="name" type="text" placeholder="Enter your name" class="name">
+           </div>
+           <div class="entry-form">
+         <label id="email-label" for="email">2. Email</label>
+         <input required id="email" type="email" class="email" placeholder="Enter your email"/>
+         </div>
+         <div class="entry-form">
+         <label id="number-label" for="age">3. Age</label>
+         <input id="number" type="number" required min="16" max="18" class="age" value="age" placeholder="Age"/>
+         </div>
+         <div class="entry-form">
+           <label for="height">4. Height:</label>
+           <label for="Ft">Ft</label>
+           <input id="ft" type="number" class="ft"/>
+           <label for="inch">Inches</label>
+           <input id="inch" type="number" class="inch"/>
+           </div>
+           <div class="entry-form">
+             <label for="weight">5. Weight</label>
+             <input required id="weight" type="number" min="1" max="260" class="weight" placeholder="lbs"/>
+             </div>
+             <div class="entry-form">
+               <label for="GPA">6. GPA</label>
+               <input required id="GPA" type="number" min="1.0" max="4.0" class="gpa" placeholder="dummy?"/>
+               </div>
+               <div class="entry-form">
+                 <label for="home address">7. Home Address</label>
+                 <input required id="home-address" type="text" class="home-address"/>
+                 <label for="City">City</label>
+                 <input required id="city" type="text" class="city"/>
+                 <label for="state">State</label>
+                 <input required id="state" type="text" class="state"/>
+               </div>
+               <div class="entry-form">
+                 <label for="running">8. How fast can you run 40 yards?</label>
+                 <input required id="running" type="number" min=":10" max="5:00" class="running"/>
+                 </div>
+               </fieldset>
+               <fieldset>
+                 <div>
+                 <label>Complete the following sentences:</label>
+                 </div>
+                 <div class="finish-the-sentence">
+                 <label class="shot">9. If I were to be shot, the last place I would want to be shot is in the</label> 
+                 <input required id="shot" type="text" class="shot"/>
+                 </div>
+                 <div class="finish-the-sentence">
+                   <label class="bone">10. If I were to be beaten, the last bone I would want to be broken is</label>
+                   <input required id="bone" type="text"class="bone"/>
+                   </div>
+                   <div class="finish-the-sentences">
+                     <label class="one-thing">11. The one thing I hope this application does not ask is</label>
+                       <input required id="one-thing" type="text"class="one-thing"/>
+                       </div>
+                       <div class="finish-the-sentences">
+                         <label class="death">12. In the unfortunate event of my untimely death, I would like my ashes scattered</label>
+                         <input required id="death" type="text"/>
+                         </div>
+                         <div class="finish-the-sentences">
+                           <label class="fear">13. My greatest fear is</label>
+                           <input required id="fear" type="text"/>
+                           </div>
+                           <div class="finish-the-sentence">
+                             <label class="grow-up">14. What do you want to be if you grow up</label>
+                             <input required id="grow-up" type="text"/>
+                             </div>
+                             <div required class="finish-the-sentence">
+                               <label class="fingerprinted">15. Have you ever been fingerprinted</label>
+                                
+                               <input   type="radio" class="yes" value="yes"name="button"></input>
+                               <label>Yes</label>
+                               <input type="radio" class="no" value="no"name="button"></input>
+                               <label>No</label>
+                               </div>
+                               <div>
+                               <label class="birthmark"><em>(if YES please explain why)</em></label>
+                                 <textarea id="finger2" type="text" class="finger2"></textarea>
+                               </div>
+                               <div class="finish-the-sentence">
+                                 <label class="marks">16. Do you have any identifying marks?</label>
+                                   <label class="birthmark"> <em>e.g. birth marks, scars,tattoos</em></label>
+                                   <input required type="radio" class="yes" value="yes"name="button"></input>
+                                   <lebel>Yes</label>
+                                   <input required type="radio" class="no" value="no"name="button"></input>
+                                   <label>No</label>
+                                   </div>
+                                   <div>
+                                   <label class="birthmark"><em>(if YES please explain and give location)</em></label>
+                                   </div>
+                                 <textarea id="finger2" type="text" class="finger2"></textarea>
+                                 
+                                   </fieldset>
+                                   <fieldset>
+         <div class="pickone"required>
+           <label>Which option best describes your personality?
+           <select id="dropdown">
+             <option selected disabled>Select an option</option>
+             <option value="1">Funny</option>
+             <option value="2">Shy</option>
+             <option value="3">People Pleaser</option>
+             <option value="4">Serial Killer Vibes</option>
+             <option value="5">Other</option>
+             </select>
+             </label>
+             </fieldset>
+         </div>
+         <fieldset>
+         <div>
+           <label>Do you plan to go to College?</label>
+           </div>
+           <div class="label-button">
+            <input type="radio" class="definitely" value="Definitely" checked name="button"><label>Definitely</label> 
+             </div>
+             <div class="label-button">
+               <input type="radio" class="maybe" value="maybe" name="button">
+                 <label>Maybe</label>
+               </div>
+               <div class="label-button">
+                 <input type="radio" class="not-sure" value="not-sure" name="button">
+                  <label>Not sure</label>
+         </div>
+         </fieldset>
+         <fieldset>
+         <div class="favorite">
+           <label>What is your favorite thing about my daughter?
+             <select id="dropdown">
+               <option selected disabled>Select an option</option>
+               <option value="1">Her smile</option>
+               <option value="2">Her eyes</option>
+               <option value="3">Her sense of humor</option>
+               <option value="4">Her style</option>
+               <option value="5">Her brain</option>
+               </select>
+           </div>
+           </fieldset>
+           <fieldset>
+         <div>
+           <label>What does "Late" mean to you? (check all that apply)</label>
+           <div class="improve">
+             <input class="improve-input" type="checkbox" id="choice1" value="option1">
+             <label class="improve-label" for="choice1">5 min</label>
+           </div>
+           <div class="improve">
+             <input class="improve-input" type="checkbox" id="choice2" value="option2">
+             <label class="improve-label" for="choice2">One Hour</label>
+             </div>
+             <div class="improve">
+               <input class="improve-input" type="checkbox" id="choice3" value="option3">
+               <label class="improve-label" for="choice3">Unexpected circumstances that are beyond your control</label>
+               </div>
+               <div class="improve">
+                 <input class="improve-input" type="checkbox" id="choice4" value="option4">
+                 <label class="improve-label" for="choice4">She didnt get her period</label>
+                 </div>
+                 <div class="improve">
+                   <input class="improve-input" type="checkbox" id="choice5" value="option5">
+                   <label class="improve-label" for="choice5">A little late is no big deal</label>
+                   </div>
+                   <div class="improve">
+                     <input class="improve-input" type="checkbox" id="choice6" value="option6">
+                     <label class="improve-label" for="choice6">5 min early</label>
+                     </div>
+                     <div class="improve">
+                       <input class="improve-input" type="checkbox" id="choice7" value="option7">
+                       <label class="improve-label" for="choice7">An hour early</label>
+                       </div>
+                       <div class="improve">
+                         <input class="improve-input" type="checkbox" id="choice8" value="option8">
+                         <label class="improve-label" for="choice8">I'am NEVER late</label>
+                         </div>
+                         <div class="improve">
+                           <input class="improve-input" type="checkbox" id="choice9" value="option9">
+                           <label class="improve-label" for="choice9">Other</label>
+                           </div>
+                               </fieldset>
+                               <fieldset>
+                               <div class="ending">
+            <label for="comments">Explain what "DONT TOUCH MY DAUGHTER" means to you.</label>
+            </div>
+            <div>
+              <textarea id="comments" rows="8" cols="82"placeholder="NO Means NO..."></textarea>
+         </div>
+         <div>
+           <button class="the-end"id="submit">Submit</button>
+           </div>
+         </fieldset>
+  <footer>
+    <div class="last-note">
+      <p id="one-last-thing"><em>Thank you for your interest! Please allow 4 to 6 years for processing. You will be contacted in writing if you are approved. Please do not call,text, or E-mail. Any attempts at contact during the processing of this application could be hazardous to your health and /or cause serious personal injury.</em></p>
+      </footer>
+      </form>
+      </body>
+  </html>
